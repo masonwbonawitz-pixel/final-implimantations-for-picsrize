@@ -1,0 +1,74 @@
+{
+  "title": "3D Album Cover Mosaic Builder",
+  "price_subtitle": "Create colorized 3D prints",
+  "upload_image_text": "Choose image file...",
+  "upload_subtext": "Will be resized to 75\u00d775 pixels",
+  "stl_upload_text": "Choose STL file...",
+  "stl_subtext": "Or auto-load from server",
+  "info_title": "Custom Brick Mosaic Designer",
+  "info_description": "Turn your favourite photos into stunning brick art\u2014made by you!",
+  "info_additional": "Bring your memories to life, one brick at a time. With our Custom Brick Mosaic Designer you can transform any image into a beautiful 3D printable mosaic.",
+  "howto_title": "How to Use",
+  "howto_content": "1. Upload Your Image\n2. Select Grid Size\n3. Adjust Image\n4. View in 3D",
+  "desktop_info": "Each pixel in your PNG maps to one cube in the STL grid. Colors are preserved exactly as-is.",
+  "desktop_output": "OBJ file with MTL colors - Import to Bambu Studio and export as 3MF for printing.",
+  "panel_title": "Edit Your Photo",
+  "canvas_label": "Processed (Posterized)",
+  "section_upload": "1. Upload Color Image",
+  "section_grid": "2. Select Grid Size",
+  "section_adjustments": "Image Adjustments",
+  "section_painting": "Painting",
+  "grid_btn_48": "48 \u00d7 48",
+  "grid_btn_75": "75 \u00d7 75",
+  "grid_btn_96": "96 \u00d7 96",
+  "slider_contrast_label": "Contrast",
+  "slider_brightness_label": "Brightness",
+  "slider_tones_label": "Tones",
+  "label_dimensions": "Dimensions:",
+  "label_addons": "Addons:",
+  "label_48x48": "48\u00d748:",
+  "label_75x75": "75\u00d775:",
+  "label_96x96": "96\u00d796:",
+  "stand_name": "Stand",
+  "stand_upload_btn": "Upload Image",
+  "mounting_name": "Nano Wall Mounting Dots (Pack of 8)",
+  "mounting_upload_btn": "Upload Image",
+  "color_black_title": "Black",
+  "color_darkgray_title": "Dark Gray",
+  "color_lightgray_title": "Light Gray",
+  "color_white_title": "White",
+  "size_guide_title": "Size Guide",
+  "size_guide_button_text": "Size Guide",
+  "size_guide": {
+    "square": [
+      {
+        "bricks": "32 \u00d7 32 bricks",
+        "cm": "28.6 \u00d7 28.6 cm"
+      },
+      {
+        "bricks": "32 \u00d7 32 bricks*",
+        "cm": "25.6 \u00d7 25.6 cm"
+      },
+      {
+        "bricks": "48 \u00d7 48 bricks",
+        "cm": "41.4 \u00d7 41.4 cm"
+      },
+      {
+        "bricks": "48 \u00d7 48 bricks*",
+        "cm": "38.4 \u00d7 38.4 cm"
+      },
+      {
+        "bricks": "64 \u00d7 64 bricks",
+        "cm": "54.2 \u00d7 54.2 cm"
+      },
+      {
+        "bricks": "96 \u00d7 96 bricks",
+        "cm": "79.8 \u00d7 79.8 cm"
+      }
+    ],
+    "portrait": [],
+    "landscape": [],
+    "note": "* Unframed baseplate. All other measurements shown are for the framed baseplate."
+  },
+  "slider_denoise_label": "Denoise"
+}

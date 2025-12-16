@@ -1,0 +1,43 @@
+═══════════════════════════════════════════════════════════════
+   🚀 START YOUR LOCAL SERVER - PORT 5003
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Open Terminal
+───────────────────────────────────────────────────────────────
+
+STEP 2: Run These Commands
+───────────────────────────────────────────────────────────────
+
+cd "/Users/masonbonawitz/Desktop/Cursor Code for Rize albums/5001/FOR_HOSTING"
+
+./start-local-5003.sh
+
+───────────────────────────────────────────────────────────────
+
+STEP 3: Open in Browser
+───────────────────────────────────────────────────────────────
+
+http://localhost:5003/mobile/          ← Mobile version
+http://localhost:5003/desktop.html     ← Desktop version  
+http://localhost:5003/admin.html       ← Admin panel
+http://localhost:5003/test-cart.html   ← Test cart API
+
+═══════════════════════════════════════════════════════════════
+   ✅ ALL FIXED - EVERYTHING CONNECTS TO PORT 5003
+═══════════════════════════════════════════════════════════════
+
+What was fixed:
+• Mobile page now points to localhost:5003 ✓
+• Desktop page now points to localhost:5003 ✓
+• Admin panel now points to localhost:5003 ✓
+
+This means:
+• Prices will load ✓
+• Images will load ✓
+• Text/content will load ✓
+• Cart creation works ✓
+
+───────────────────────────────────────────────────────────────
+Need help? Open: FIXED_FOR_LOCALHOST.md
+───────────────────────────────────────────────────────────────
+

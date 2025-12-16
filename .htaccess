@@ -1,0 +1,41 @@
+# Enable directory indexing and set default index file
+DirectoryIndex index.html index.htm
+
+# Allow access to all files
+<FilesMatch "\.(html|htm|js|css|jpg|jpeg|png|gif|svg|ico|heic|json)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# Enable CORS for API calls (if needed)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+
+# Allow directory browsing for mobile folder
+Options +Indexes
+<Directory "mobile">
+    DirectoryIndex index.html
+    Options +Indexes
+</Directory>
+
+# Rewrite rules for clean URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Redirect /mobile/ to /mobile/index.html
+    RewriteRule ^mobile/?$ mobile/index.html [L]
+    
+    # If file doesn't exist, try adding .html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+# Custom error pages
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
+
